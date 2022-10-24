@@ -1,0 +1,54 @@
+body {
+  background-color: lightblue;
+  }
+
+.wrapper {
+  background-color: white;
+  padding: 20px;
+  width: 87%;
+  margin-top: 100px;
+  border-style: solid;
+  border-color: rgb(74, 174, 199);
+  border-width: 7px;
+}
+
+.footer {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  width: 92%
+}
+
+.header {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  width: 90%;
+  display: flex;
+  position: fixed;
+  top:0;
+  }
+
+.hero-image{
+  background-image: linear-gradient(
+  rgba(0,0,0,0.5),
+  rgba(0,0,0,0.5)),
+  url("friendship.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flec;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  color: #ffff;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 500;;
+}
